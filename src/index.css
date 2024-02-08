@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  scroll-behavior: smooth;
+}
+.borderLight::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 200%;
+  background: linear-gradient(#00ccff, #d400d4);
+  animation: animate 2s linear infinite;
+}
+.borderLight::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background: #0e1538;
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
