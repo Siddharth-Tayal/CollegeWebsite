@@ -3,7 +3,6 @@ import Lottie from "react-lottie";
 import Data from "../animations/Animation - 1707033212018.json";
 import { FaPhone, FaWhatsapp } from "react-icons/fa";
 import { AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
-import { GiGlobe } from "react-icons/gi";
 import NBA from "../images/nba.png";
 const Contact = () => {
   const defaultOptions = {
